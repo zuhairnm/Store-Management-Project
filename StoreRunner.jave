@@ -10,6 +10,10 @@ System.out.println("");
       //Shirts Section ↓ ↓ ↓
        //Creates instances of different Shirt products using the Shirt class I have created
       // This says the name of the shirt, the price, and that it contains only cotton 
+     // Prints out a title for shirt section
+      System.out.println("Shirt Section:");
+      System.out.println("");
+      
       Shirt mrJean = new Shirt("Long Sleeve Shirt", 14.5, true, "L", "H&M"); 
         System.out.println(mrJean.toString()); 
 System.out.println("");
@@ -25,7 +29,11 @@ System.out.println("");
       //Jeans  ↓ ↓ ↓
       // Creates instances of different Jeans products using the Jean class I have created 
       // This displays in the console as jeans that are made by Zara, light blue, 58,99 dollars, 100% cotton, and its length and width 
-        Jean testJean = new Jean("Zara baggy light wash jeans", 48.99, true, 31.5, 42.5, "Light Blue");
+     //prints out a title for jeans section
+      System.out.println("Jeans Section:");
+    System.out.println("");
+     
+      Jean testJean = new Jean("Zara baggy light wash jeans", 48.99, true, 31.5, 42.5, "Light Blue");
         System.out.println(testJean.toString()); 
 System.out.println("");
       Jean Jean2 = new Jean("H&M loose dark Blue Jeans", 29.98, true, 32.5, 40.5, "Dark Blue");
