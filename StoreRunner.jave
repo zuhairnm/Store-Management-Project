@@ -12,25 +12,25 @@ System.out.println("");
       // This says the name of the shirt, the price, and that it contains only cotton 
       Shirt mrJean = new Shirt("Long Sleeve Shirt", 14.5, true, "L", "H&M"); 
         System.out.println(mrJean.toString()); 
-
+System.out.println("");
       Shirt manny = new Shirt("The Iconic Flag Sweater", 240.45, false, "L", "Ralph Lauren");
       System.out.println(manny.toString());
 
       
-
+System.out.println("");
         // This says in the console that this is a striped polo, and is 30.48 dollars, is 100% cotton, is Large and is created by Ralph Lauren 
       Shirt testShirt = new Shirt("Striped Polo", 30.48, true, "L", "Ralph Lauren");
         System.out.println(testShirt.toString()); 
-
+System.out.println("");
       //Jeans  ↓ ↓ ↓
       // Creates instances of different Jeans products using the Jean class I have created 
       // This displays in the console as jeans that are made by Zara, light blue, 58,99 dollars, 100% cotton, and its length and width 
         Jean testJean = new Jean("Zara baggy light wash jeans", 48.99, true, 31.5, 42.5, "Light Blue");
         System.out.println(testJean.toString()); 
-
+System.out.println("");
       Jean Jean2 = new Jean("H&M loose dark Blue Jeans", 29.98, true, 32.5, 40.5, "Dark Blue");
         System.out.println(Jean2.toString());
-
+System.out.println("");
       Jean Jean1 = new Jean("Zara baggy fit Black Jeans", 35.5, true, 31.5, 41.00, "Black");
         System.out.println(Jean1.toString());
    
