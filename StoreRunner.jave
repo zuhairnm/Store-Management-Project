@@ -1,0 +1,39 @@
+// This is the main class called store runner which is the main area where everything from every class is brought to make it display on the console 
+public class StoreRunner {
+    public static void main(String[] args) {
+
+System.out.println("Welcome to my Clothing Store!");
+System.out.println("These are our items that are currently in stock");
+System.out.println("");
+System.out.println("");
+      
+      //Shirts Section ↓ ↓ ↓
+       //Creates instances of different Shirt products using the Shirt class I have created
+      // This says the name of the shirt, the price, and that it contains only cotton 
+      Shirt mrJean = new Shirt("Long Sleeve Shirt", 14.5, true, "L", "H&M"); 
+        System.out.println(mrJean.toString()); 
+
+      Shirt manny = new Shirt("The Iconic Flag Sweater", 240.45, false, "L", "Ralph Lauren");
+      System.out.println(manny.toString());
+
+      
+
+        // This says in the console that this is a striped polo, and is 30.48 dollars, is 100% cotton, is Large and is created by Ralph Lauren 
+      Shirt testShirt = new Shirt("Striped Polo", 30.48, true, "L", "Ralph Lauren");
+        System.out.println(testShirt.toString()); 
+
+      //Jeans  ↓ ↓ ↓
+      // Creates instances of different Jeans products using the Jean class I have created 
+      // This displays in the console as jeans that are made by Zara, light blue, 58,99 dollars, 100% cotton, and its length and width 
+        Jean testJean = new Jean("Zara baggy light wash jeans", 48.99, true, 31.5, 42.5, "Light Blue");
+        System.out.println(testJean.toString()); 
+
+      Jean Jean2 = new Jean("H&M loose dark Blue Jeans", 29.98, true, 32.5, 40.5, "Dark Blue");
+        System.out.println(Jean2.toString());
+
+      Jean Jean1 = new Jean("Zara baggy fit Black Jeans", 35.5, true, 31.5, 41.00, "Black");
+        System.out.println(Jean1.toString());
+   
+    
+    }
+}
